@@ -2,7 +2,7 @@ package intro;
 
 import java.util.ArrayList;
 
-public class extractEachKth {
+public class ExtractEachKth {
     int[] solution(int[] inputArray, int k) {
         // N: the length of `inputArray`
         // time: O(N)
