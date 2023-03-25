@@ -1,7 +1,5 @@
 package intro;
 
-import java.util.Arrays;
-
 public class IsMAC48Address {
     boolean solution(String inputString) {
         // time: O(1)
