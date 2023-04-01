@@ -1,6 +1,13 @@
 public class Test {
     public static void main(String[] args) {
-
+        System.out.println(3 << 1 & 0);
+        System.out.println(0b10);
+        System.out.println(0b1101 << 1);
+        System.out.println(Integer.toBinaryString(11));
+        System.out.println(Integer.toBinaryString(-11));
+        System.out.println(Integer.lowestOneBit(6));
+        System.out.println(Integer.bitCount(10));
+        System.out.println(-1 % 4);
     }
 
     public static long maxDivisor(long a, long b) {
